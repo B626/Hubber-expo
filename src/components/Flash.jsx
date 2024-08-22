@@ -27,14 +27,14 @@ export const Flash = () => {
           <span
             className="hero__deco-text text-[115px] text-[#080808]
            font-['Minecraft'] uppercase bg-gradient-to-r from-[#9E00FF] to-[#6DDBF4] bg-[center_top_100px]
-           3sm:text-[70px] 3sm:leading-[100%]"
+           3sm:text-[70px] 3sm:leading-[100%] relative 3sm:z-[3]"
           >
             We are team
           </span>
         </div>
       </div>
       <img
-        className="absolute bottom-[30px] left-0 w-[550px] 3sm:top-[-30px]"
+        className="absolute bottom-[30px] left-0 w-[550px] 3sm:top-[-30px] 3sm:hidden"
         src="/public/flash/bg.png"
         alt=""
       />

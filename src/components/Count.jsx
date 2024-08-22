@@ -51,7 +51,7 @@ export const Count = () => {
               <span
                 className="text-[70px] font-[Minecraft] max-h-[130px] inline-block 
               p-[23px] bg-gradient-to-b from-[#9E00FF] to-[#5F0099] rounded-[18px] mb-[6px] w-[100%] 3sm:text-[30px] 3sm:leading-[100%]
-              3sm:p-[15px]"
+              3sm:p-[12px] 3sm:w-[60px]"
               >
                 {timerDays.toString().length == 1 ? "0" + timerDays : timerDays}
               </span>
@@ -61,7 +61,7 @@ export const Count = () => {
               <span
                 className="text-[70px] font-[Minecraft] max-h-[130px] inline-block
               p-[23px] bg-gradient-to-b from-[#9E00FF] to-[#5F0099] rounded-[18px] mb-[6px] w-[100%] 3sm:text-[30px] 3sm:leading-[100%]
-              3sm:p-[15px]"
+              3sm:p-[12px] 3sm:w-[60px]"
               >
                 {timerHours.toString().length == 1
                   ? "0" + timerHours
@@ -75,7 +75,7 @@ export const Count = () => {
               <span
                 className="text-[70px] font-[Minecraft] max-h-[130px] inline-block 
               p-[23px] bg-gradient-to-b from-[#9E00FF] to-[#5F0099] rounded-[18px] mb-[6px] w-[100%] 3sm:text-[30px] 3sm:leading-[100%]
-              3sm:p-[15px]"
+              3sm:p-[12px] 3sm:w-[60px]"
               >
                 {timerMinutes.toString().length == 1
                   ? "0" + timerMinutes
@@ -89,7 +89,7 @@ export const Count = () => {
               <span
                 className="text-[70px] font-[Minecraft] max-h-[130px] inline-block 
               p-[23px] bg-gradient-to-b from-[#9E00FF] to-[#5F0099] rounded-[18px] mb-[6px] w-[100%] 3sm:text-[30px] 3sm:leading-[100%]
-              3sm:p-[15px]"
+              3sm:p-[12px] 3sm:w-[60px]"
               >
                 {timerSeconds.toString().length == 1
                   ? "0" + timerSeconds
@@ -103,7 +103,7 @@ export const Count = () => {
           <Link
             to={"/"}
             className="uppercase text-white font-['Minecraft'] text-[25px] pt-[20px]
-               pb-[20px] pr-[72px] pl-[72px] bg-gradient-to-r from-[#9E00FF] to-[#FE7A01] flex center rounded-[27px] h-[70px]"
+               pb-[20px] pr-[72px] pl-[72px] 3sm:pr-[36px] 3sm:pl-[36px] bg-gradient-to-r from-[#9E00FF] to-[#FE7A01] flex center rounded-[27px] h-[70px]"
           >
             Buy ticket
           </Link>
