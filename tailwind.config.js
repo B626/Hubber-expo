@@ -7,7 +7,8 @@ export default {
       "3sm": "0px",
       "2sm": "320px",
       "sm": "480px",
-      "md": "768px",
+      "md" : "600px",
+      "2md": "768px",
       "lg": "1024px",
       "xl": "1280px",
       "2xl": "1536px"

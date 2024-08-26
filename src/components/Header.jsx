@@ -13,7 +13,7 @@ export const Header = () => {
           </p>
         </Link>
         <nav>
-          <ul className="flex gap-[30px] items-center 3sm:hidden">
+          <ul className="flex gap-[30px] items-center 3sm:hidden 2md:flex 2md:gap-[20px]">
             <HeaderLink text={"Flashback"} link={"/"} />
             <HeaderLink text={"Discussion topics"} link={"/"} />
             <HeaderLink text={"Speakers"} link={"/"} />

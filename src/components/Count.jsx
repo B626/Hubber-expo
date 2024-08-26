@@ -46,12 +46,12 @@ export const Count = () => {
           <h2 className="text-[55px] font-[700] 3sm:text-[40px]">
             Event starts in
           </h2>
-          <div className="flex gap-[37px] 3sm:gap-[15px]">
+          <div className="flex gap-[37px] 3sm:gap-[15px] md:gap-[30px]">
             <div className="text-center">
               <span
                 className="text-[70px] font-[Minecraft] max-h-[130px] inline-block 
               p-[23px] bg-gradient-to-b from-[#9E00FF] to-[#5F0099] rounded-[18px] mb-[6px] w-[100%] 3sm:text-[30px] 3sm:leading-[100%]
-              3sm:p-[12px] 3sm:w-[60px]"
+              3sm:p-[12px] 3sm:w-[60px] sm:w-[90px] sm:h-[90px] sm:text-[40px] sm:leading-[200%]"
               >
                 {timerDays.toString().length == 1 ? "0" + timerDays : timerDays}
               </span>
@@ -61,7 +61,7 @@ export const Count = () => {
               <span
                 className="text-[70px] font-[Minecraft] max-h-[130px] inline-block
               p-[23px] bg-gradient-to-b from-[#9E00FF] to-[#5F0099] rounded-[18px] mb-[6px] w-[100%] 3sm:text-[30px] 3sm:leading-[100%]
-              3sm:p-[12px] 3sm:w-[60px]"
+              3sm:p-[12px] 3sm:w-[60px] sm:w-[90px] sm:h-[90px] sm:text-[40px] sm:leading-[200%]"
               >
                 {timerHours.toString().length == 1
                   ? "0" + timerHours
@@ -75,7 +75,7 @@ export const Count = () => {
               <span
                 className="text-[70px] font-[Minecraft] max-h-[130px] inline-block 
               p-[23px] bg-gradient-to-b from-[#9E00FF] to-[#5F0099] rounded-[18px] mb-[6px] w-[100%] 3sm:text-[30px] 3sm:leading-[100%]
-              3sm:p-[12px] 3sm:w-[60px]"
+              3sm:p-[12px] 3sm:w-[60px] sm:w-[90px] sm:h-[90px] sm:text-[40px] sm:leading-[200%]"
               >
                 {timerMinutes.toString().length == 1
                   ? "0" + timerMinutes
@@ -89,7 +89,7 @@ export const Count = () => {
               <span
                 className="text-[70px] font-[Minecraft] max-h-[130px] inline-block 
               p-[23px] bg-gradient-to-b from-[#9E00FF] to-[#5F0099] rounded-[18px] mb-[6px] w-[100%] 3sm:text-[30px] 3sm:leading-[100%]
-              3sm:p-[12px] 3sm:w-[60px]"
+              3sm:p-[12px] 3sm:w-[60px] sm:w-[90px] sm:h-[90px] sm:text-[40px] sm:leading-[200%]"
               >
                 {timerSeconds.toString().length == 1
                   ? "0" + timerSeconds

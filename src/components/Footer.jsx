@@ -10,7 +10,7 @@ export const Footer = () => {
   return (
     <footer className="pt-[30px] 3sm:pt-[60px] pb-[115px] border-t-[1px] border-[#fff]">
       <div className="max-w-[1290px] mt-[0px] mr-auto mb-[0px] ml-auto pr-[15px] pl-[15px]">
-        <div className="flex justify-between mb-[25px] 3sm:flex-col 3sm:gap-[50px]">
+        <div className="flex justify-between mb-[25px] 3sm:flex-col 3sm:gap-[50px] 2md:flex-row">
           <div className="flex flex-col gap-[72px] w-[33.33%] 3sm:w-[100%]">
             <Link
               to={"/"}
@@ -62,7 +62,7 @@ export const Footer = () => {
             </div>
           </div>
           <div className="w-[33.33%] 3sm:w-[100%]">
-            <ul className="flex flex-col gap-[30px] 3sm:grid 3sm:grid-cols-2 3sm:grid-rows-3">
+            <ul className="flex flex-col gap-[30px] 3sm:grid 3sm:grid-cols-2 3sm:grid-rows-3 2md:flex 2md:flex-nowrap">
               <li>
                 <Link className="text-[18px] font-[300] hover:underline">
                   Flashback

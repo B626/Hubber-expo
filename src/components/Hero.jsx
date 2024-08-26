@@ -11,10 +11,10 @@ export const Hero = () => {
       <div
         className="max-w-[1290px] mt-[0px] mr-auto mb-[0px] 
       ml-auto pr-[15px] pl-[15px] flex justify-between relative
-      3sm:flex-col 3sm:gap-[120px]
+      3sm:flex-col 3sm:gap-[120px] 2md:flex-row 2md:mt-[20px]
       "
       >
-        <div className="mt-[170px] 3sm:mt-[70px] max-w-[719px] relative">
+        <div className="mt-[170px] 3sm:mt-[70px] max-w-[719px] relative 2md:mt-[120px]">
           <img
             src={triangles}
             alt=""
@@ -60,7 +60,7 @@ export const Hero = () => {
           <img
             src={orbit}
             alt=""
-            className="absolute top-0 left-[80%] translate-x-[-80%] 3sm:w-[140px] 2sm:w-[180px]"
+            className="absolute top-0 left-[80%] translate-x-[-80%] 3sm:w-[140px] 2sm:w-[180px] md:left-[90%]"
           />
           <HeroDecorateText text={"Web 3.0"} />
           <HeroDecorateText text={"Metaverse"} />
