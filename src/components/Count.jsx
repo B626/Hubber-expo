@@ -40,7 +40,7 @@ export const Count = () => {
   }, []);
 
   return (
-    <section className="pt-[165px] 3sm:pt-[50px] pb-[165px] 3sm:pb-[50px] bg-[url('/public/count/bg.png')] bg-no-repeat bg-center bg-cover">
+    <section className="pt-[165px] 3sm:pt-[50px] pb-[165px] 3sm:pb-[50px] bg-[url('/public/count/bg.png')] bg-no-repeat bg-center bg-cover relative z-[3]">
       <div className="max-w-[1290px] mt-[0px] mr-auto mb-[0px] ml-auto pr-[15px] pl-[15px]">
         <div className="max-w-[613px] flex flex-col justify-center items-center gap-[45px] 3sm:gap-[30px]">
           <h2 className="text-[55px] font-[700] 3sm:text-[40px]">

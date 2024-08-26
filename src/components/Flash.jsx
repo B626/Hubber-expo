@@ -55,7 +55,7 @@ export const Flash = () => {
         </div>
       </div>
       <img
-        className="absolute bottom-[30px] left-0 w-[550px] 3sm:top-[-30px] 3sm:hidden"
+        className="absolute bottom-[30px] left-0 w-[550px] 3sm:top-[-30px] 3sm:hidden lg:block lg:w-[400px]"
         src="/public/flash/bg.png"
         alt=""
       />

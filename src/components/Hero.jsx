@@ -11,17 +11,17 @@ export const Hero = () => {
       <div
         className="max-w-[1290px] mt-[0px] mr-auto mb-[0px] 
       ml-auto pr-[15px] pl-[15px] flex justify-between relative
-      3sm:flex-col 3sm:gap-[120px] 2md:flex-row 2md:mt-[20px]
+      3sm:flex-col 3sm:gap-[120px] 2md:flex-row lg:mt-[20px]
       "
       >
-        <div className="mt-[170px] 3sm:mt-[70px] max-w-[719px] relative 2md:mt-[120px]">
+        <div className="mt-[170px] 3sm:mt-[70px] lg:mt-[120px] max-w-[719px] relative xl:mt-[170px]">
           <img
             src={triangles}
             alt=""
             className="absolute top-[-100px] 3sm:top-[-70px]"
           />
           <div className="flex flex-col gap-[24px]">
-            <h1 className="uppercase text-[60px] font-[700] leading-[110%] 3sm:text-[30px]">
+            <h1 className="uppercase text-[60px] font-[700] leading-[110%] 3sm:text-[30px] lg:text-[60px]">
               Blockchain & Crypto <br className="max-[992px]:hidden" />{" "}
               conference
             </h1>
@@ -35,7 +35,7 @@ export const Hero = () => {
               className="uppercase text-white font-['Minecraft'] text-[25px] pt-[20px]
                pb-[20px] pr-[72px] pl-[72px] bg-gradient-to-r from-[#9E00FF] to-[#6AAAF3] 
                flex self-start rounded-bl-[27px] h-[70px]
-               3sm:pl-[30px] 3sm:pr-[30px]
+               3sm:pl-[30px] 3sm:pr-[30px] lg:pt-[20px] lg:pb-[20px] lg:pr-[72px] lg:pl-[72px]
                "
             >
               Buy ticket
@@ -56,7 +56,7 @@ export const Hero = () => {
             className="absolute bottom-[-230px]"
           />
         </div>
-        <div className="flex flex-col gap-[20px] 3sm:gap-[5px] relative">
+        <div className="flex flex-col gap-[20px] 3sm:gap-[5px] relative xl:gap-[15px] 2xl:min-w-[460px]">
           <img
             src={orbit}
             alt=""
